@@ -16,6 +16,10 @@ h1 {
     margin-bottom: 20px; /* Spazio sotto il titolo */
 }
 
+#visualizzazione {
+    margin-top: 30px; /* Spazio sopra la selezione e il bottone */
+}
+
 #modalita, #startQuiz {
     margin-top: 30px; /* Spazio sopra la selezione e il bottone */
 }
