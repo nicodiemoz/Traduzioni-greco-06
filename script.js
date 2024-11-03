@@ -144,11 +144,11 @@ function showNextWord() {
         const visualizzazione = document.getElementById("visualizzazione").value;
         
         if (visualizzazione === 'parola') {
-            document.getElementById("quizPrompt").textContent = `Parola: ${word.parola}`;
+            document.getElementById("quizPrompt").textContent = `${word.parola}`;
             document.getElementById("quizAnswer").textContent = `Traduzione: ${word.traduzione}`;
         } else {
             document.getElementById("quizPrompt").textContent = `Traduzione: ${word.traduzione}`;
-            document.getElementById("quizAnswer").textContent = `Parola: ${word.parola}`;
+            document.getElementById("quizAnswer").textContent = `${word.parola}`;
         }
 
         document.getElementById("quizAnswer").style.display = "none";
