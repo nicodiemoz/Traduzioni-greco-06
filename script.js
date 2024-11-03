@@ -147,8 +147,8 @@ function showNextWord() {
             document.getElementById("quizPrompt").textContent = `${word.parola}`;
             document.getElementById("quizAnswer").textContent = `Traduzione: ${word.traduzione}`;
         } else {
-            document.getElementById("quizPrompt").textContent = `Traduzione: ${word.traduzione}`;
-            document.getElementById("quizAnswer").textContent = `${word.parola}`;
+            document.getElementById("quizPrompt").textContent = `${word.traduzione}`;
+            document.getElementById("quizAnswer").textContent = `Traduzione: ${word.parola}`;
         }
 
         document.getElementById("quizAnswer").style.display = "none";
