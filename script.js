@@ -130,7 +130,7 @@ document.getElementById("startQuiz").addEventListener("click", function () {
 document.getElementById("nextBtn").addEventListener("click", function () {
     document.getElementById("quizAnswer").style.display = "block";
     if (currentWordIndex < shuffledWords.length) {
-        document.getElementById("nextBtn").textContent = "Prossima Parola";
+        document.getElementById("nextBtn").textContent = "Soluzione";
     } else {
         document.getElementById("quizPrompt").textContent = "Quiz terminato!";
         document.getElementById("nextBtn").style.display = "none";
