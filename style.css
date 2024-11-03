@@ -17,15 +17,18 @@ h1 {
 }
 
 #visualizzazione {
-    margin-top: 30px; /* Spazio sopra la selezione e il bottone */
+    margin-top: 10px; /* Spazio sopra la selezione e il bottone */
+    margin-bottom: 20px;
 }
 
 #modalita, #startQuiz {
-    margin-top: 30px; /* Spazio sopra la selezione e il bottone */
+    margin-top: 10px; /* Spazio sopra la selezione e il bottone */
+    margin-bottom: 20px;
 }
 
 #quizContainer {
-    margin-top: 50px; /* Spazio sopra il contenitore del quiz */
+    margin-top: 30px; /* Spazio sopra il contenitore del quiz */
+    margin-bottom: 20px;
 }
 
 button {
