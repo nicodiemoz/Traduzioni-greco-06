@@ -17,7 +17,7 @@ h1 {
 }
 
 #modalita, #startQuiz {
-    margin-top: 10px; /* Spazio sopra la selezione e il bottone */
+    margin-top: 30px; /* Spazio sopra la selezione e il bottone */
 }
 
 #quizContainer {
