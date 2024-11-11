@@ -7,7 +7,7 @@ const nomi = [
     { parola: "πῦρ", traduzione: "fuoco" }
 ];
 
-const aggettivi =
+const aggettivi = [
     { parola: "μέλας, μέλαινα, μέλαν", traduzione: "nero" },
     { parola: "τάλας, τάλανα, τάλαν", traduzione: "infelice" },
     { parola: "τερήν, τερεινα, τερεν", traduzione: "tenero" },
