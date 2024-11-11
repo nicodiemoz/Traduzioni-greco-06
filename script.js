@@ -1,5 +1,5 @@
 const nomi = [
-    { parola: "ἄνθρωπος", traduzione: "uomo" }
+    { parola: "ἄνθρωπος", traduzione: "uomo" },
     { parola: "γυνή", traduzione: "donna" },
     { parola: "κύων", traduzione: "cane" },
     { parola: "μάρτυς", traduzione: "testimone" },
